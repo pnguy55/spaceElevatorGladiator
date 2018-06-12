@@ -5,9 +5,9 @@ The tower is still far but you can already see it's form in the distance, a buil
 so tall that it dissapears into the sky.
 "Are you ready to head to head out there now?" the guide asks.
 
-A) Sure, let's go.
+1) Sure, let's go.
 
-B) Nah, not yet I want to look around.
+2) Nah, not yet I want to look around.
 
 
 

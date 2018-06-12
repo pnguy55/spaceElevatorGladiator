@@ -6,10 +6,14 @@ using UnityEngine.UI;
 public class SpaceElevatorElevatorTextGame : MonoBehaviour {
 
     [SerializeField] Text textComponent;
+    [SerializeField] State startingState;
+
+    State state;
 
 	// Use this for initialization
 	void Start () {
-		textComponent.text = ("Yo Yo Yo who it be ?");
+        state = startingState;
+		textComponent.text = state.GetStateStory();
 	}
 	
 	// Update is called once per frame
